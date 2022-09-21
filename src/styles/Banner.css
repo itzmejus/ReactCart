@@ -1,0 +1,32 @@
+
+.bannerContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.banner {
+  position: relative;
+  height: 100%;
+  max-height: 198px;
+  width: 100%;
+  max-width: 1279px;
+  background: none;
+  overflow: hidden;
+}
+
+.banner img {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+  opacity: calc(2px);
+  filter: blur(0.5px);
+}
+
+.bannerText {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 25px;
+  opacity: 0.5px;
+}
